@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-start  bg-blue-500 p-2">
+    <div className="flex items-center justify-start  bg-blue-500 p-3">
         <Link href="/"><Image src="/logo.png" alt="logo" width={40} height={40} className="rounded-full" /></Link>
 
         <ul className="flex pt-4 items-center justify-center  pl-80 ml-80">
